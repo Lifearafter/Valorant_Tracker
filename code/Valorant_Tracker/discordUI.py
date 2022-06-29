@@ -1,6 +1,6 @@
 import os
 from discord.ext import commands
-from matchhistory import compMatchHistory
+from code.Valorant_Tracker.matchhistory import compMatchHistory
 from dotenv import load_dotenv
 
 bot = commands.Bot(command_prefix='!')

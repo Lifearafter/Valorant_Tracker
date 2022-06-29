@@ -1,6 +1,18 @@
 #environment variable file for discord bot token
 .env
+
+#Coverage Report
 .coverage
+
+#VSCode Settings
 .vscode/settings.json
+
+#Pycache
 __pycache__/
+#virtual_enviroment
 .venv/
+
+#pycache
+code/__pycache__
+code/Tests/__pycache__
+code/Valorant_Tracker/__pycache__
