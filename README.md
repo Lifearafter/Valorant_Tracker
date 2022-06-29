@@ -1,7 +1,6 @@
 # Valo Tracker - Discord Bot
 
 ## Setup
-<hr>
 
 ### **To add the bot to a discord server**
 Simply use the following link to add the bot to the server </br> 
@@ -21,7 +20,6 @@ Simply use the following link to add the bot to the server </br>
 **Explantaion**: Finds information regarding a particular user.
 
 ## Development
-<hr>
 
 ### **Information about the bot**
 The bot mainly uses <a href = "https://github.com/Henrik-3/unofficial-valorant-api">Henrik's Unofficial Valorant API</a> to get player and match information for a specified **Username** and **Tag**, for example, Liferafter#7796. </br></br>
