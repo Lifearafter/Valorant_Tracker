@@ -1,0 +1,6 @@
+#environment variable file for discord bot token
+.env
+.coverage
+.vscode/settings.json
+__pycache__/
+.venv/
