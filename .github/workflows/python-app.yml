@@ -16,9 +16,6 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-    env: 
-      TOKEN: OTkxMDYzNzkyNDU0NjE5MTU3.GgDqy7.v_F0wrXALv1Do2tugQ1yzyaOHe80nqkIAvHElE
-
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python 3.10
