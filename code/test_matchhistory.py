@@ -1,5 +1,5 @@
-import unittest 
-from code.Valorant_Tracker.matchhistory import compMatchHistory
+import unittest
+from matchhistory import compMatchHistory
 
 class TestMatchHistory(unittest.TestCase):
     def test_getAccData(self):

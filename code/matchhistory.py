@@ -1,5 +1,6 @@
 from requests import get
 from json import loads
+import sys
 
 class compMatchHistory:
     def __init__(self, userName, tagName):
@@ -105,26 +106,27 @@ class compMatchHistory:
 
 
 def main():
-    mh = compMatchHistory('Lifended', '4188')
+    mh = compMatchHistory('InitiatorToRad', '5112')
     
-    # if mh.getAccData() is True:
-    #     if mh.formatAccData() is True:
-    #         if mh.getMmrHistory() is True:
-    #             if mh.formatMmrData() is True:
-    #                 if mh.getPrevMmr() is True:
-    #                     counter = 1
-    #                     for x in mh.ranks:
-    #                         print("For episode 4 act {actInfo}: {rank}".format(actInfo=counter, rank=x))
-    #                         counter = counter+1
+    if mh.getAccData() is True:
+        if mh.formatAccData() is True:
+            if mh.getMmrHistory() is True:
+                if mh.formatMmrData() is True:
+                    if mh.getPrevMmr() is True:
+                        counter = 1
+                        for x in mh.ranks:
+                            print("For episode 4 act {actInfo}: {rank}".format(actInfo=counter, rank=x))
+                            counter = counter+1
                         
-    #                     print()
-    #                     counter = 1
-    #                     for x in mh.mmrChange:
-    #                         print("For match {counter}: {mmr}".format(counter=counter, mmr=x))
-    #                         counter = counter+1
+                        print()
+                        counter = 1
+                        for x in mh.mmrChange:
+                            print("For match {counter}: {mmr}".format(counter=counter, mmr=x))
+                            counter = counter+1
                         
-    #                     print()
-    #                     print('{user}\'s current rank is: {rank}'.format(user=mh.userName, rank = mh.currentRank))
+                        print()
+                        print('{user}\'s current rank is: {rank}'.format(user=mh.userName, rank = mh.currentRank))
+                        print(sys.path)
                 
     
     
