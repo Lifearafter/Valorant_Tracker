@@ -1,5 +1,7 @@
 # Valo Tracker - Discord Bot
 
+![build-passing](https://github.com/Lifeafter/Valorant_Tracker/actions/workflows/python-app.yml/badge.svg)
+
 ## Setup
 
 ### **To add the bot to a discord server**
