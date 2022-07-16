@@ -3,7 +3,7 @@ WORKDIR /VALORANT_TRACKER
 
 COPY requirements.txt requirements.txt
 
-COPY ./code/discordUI.py /VALORANT_TRACKER/discordUI.py
+COPY ./code/discordUI.py /VALORANT_TRACKER/discordUI.pyhttps://github.com/Lifearafter/Valorant_Tracker/tree/master/Docker
 COPY ./code/matchhistory.py /VALORANT_TRACKER/matchhistory.py
 
 ARG Token
