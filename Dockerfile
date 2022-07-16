@@ -6,7 +6,9 @@ COPY requirements.txt requirements.txt
 COPY ./code/discordUI.py /VALORANT_TRACKER/discordUI.py
 COPY ./code/matchhistory.py /VALORANT_TRACKER/matchhistory.py
 
-ENV TOKEN=
+ARG Token
+
+ENV TOKEN = ${Token}
 
 RUN pip install -r requirements.txt
 

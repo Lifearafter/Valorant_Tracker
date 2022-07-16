@@ -133,6 +133,14 @@ The current <a href= 'requirements.txt'>requirements.txt</a> file contains all t
 You can simply pip-install those requirements.
 
 ### **Dockerfile**
-You can also use the<a href='Dockerfile'> Dockerfile</a> in this repo to build and run a Docker Image. 
-> **Side Note** - Don't forget to add your *Bot Token* to the <a href='Dockerfile'> Dockerfile</a> before building an image.
+You can also use the<a href='Dockerfile'> Dockerfile</a> in this repo to build and run a Docker Image.
+Use the commands below in the command prompt.
+```
+cd <PATH to Dir where DockerFile and code exists>
+``` 
+``` 
+docker build --build-arg Token=<BOT TOKEN> -t <name>:<tag> .
+``` 
+
+
 
