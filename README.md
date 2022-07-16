@@ -131,3 +131,8 @@ The code coverage for current tests is **96%**.
 The current <a href= 'requirements.txt'>requirements.txt</a> file contains all the third party modules, the code is dependent on.
 
 You can simply pip-install those requirements.
+
+### **Dockerfile**
+You can also use the<a href='Dockerfile'> Dockerfile</a> in this repo to build and run a Docker Image. 
+> **Side Note** - Don't forget to add your *Bot Token* to the <a href='Dockerfile'> Dockerfile</a> before building an image.
+
