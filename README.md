@@ -1,5 +1,6 @@
 # Valo Tracker - Discord Bot
 
+
 ## Setup
 
 ### **To add the bot to a discord server**
