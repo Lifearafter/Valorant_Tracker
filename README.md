@@ -18,7 +18,7 @@ Simply use the following link to add the bot to the server </br>
 
 ### **Commands**
 * `!track {username}#{tag}`</br>
-**Explantaion**: Finds information regarding a particular user.
+**Explanation**: Finds information regarding a particular user.
 
 ## Development
 
